@@ -1,7 +1,7 @@
 Getting started with Travis CI
 ==============================
 
-[Travis CI](https://travis-ci.org/) is a hosted [continuous integration](http://en.wikipedia.org/wiki/Continuous_Integration) service, which provides automated build-and-test services for projects hosted on [GitHub](https://github.com). The service is free for open source projects.
+[Travis CI](https://travis-ci.com/) is a hosted [continuous integration](http://en.wikipedia.org/wiki/Continuous_Integration) service, which provides automated build-and-test services for projects hosted on [GitHub](https://github.com). The service is free for open source projects.
 
 Travis CI detects and responds to changes made to code or files held within Git repositories on GitHub. If the code is changed, by a commit, then Travis CI automatically runs a build-and-test job for that repository. This means that the software is rebuilt and tested every time changes to the code are pushed to GitHub. Since Travis CI is remote from your own machine, it means you can continue working while the tests are under way. It also means you do not have to set up a machine for testing locally, which can be useful if you are don't have the funding, hardware or time to set this up yourself.
 

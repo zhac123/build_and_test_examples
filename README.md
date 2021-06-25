@@ -34,13 +34,13 @@ Continuous integration can help you to build and test your software regularly. T
 
 **Jenkins**
 
-[Jenkins](http://jenkins-ci.org) is a popular, open source continuous integration server, which you can deploy locally. For an introduction to Jenkins, using the Fibonacci series examples in a range of languages, see:
+[Jenkins](http://jenkins-ci.com) is a popular, open source continuous integration server, which you can deploy locally. For an introduction to Jenkins, using the Fibonacci series examples in a range of languages, see:
 
 * [Getting started with Jenkins](./jenkins/README.md). The walkthrough assumes you have installed the software required to build and test the Fibonacci series examples (or, at least, that needed by the language you are interested in).
 
 **Travis CI**
 
-[Travis CI](https://travis-ci.org/) is a hosted continuous integration server, which provides automated build and test services for projects hosted on GitHub.  For an introduction to Travis CI, using the Fibonacci series examples, in a range of languages, see:
+[Travis CI](https://travis-ci.com/) is a hosted continuous integration server, which provides automated build and test services for projects hosted on GitHub.  For an introduction to Travis CI, using the Fibonacci series examples, in a range of languages, see:
 
 * [Getting started with Travis CI](./travis/README.md)
 

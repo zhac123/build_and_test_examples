@@ -256,7 +256,7 @@ $ git commit -m "Updated .travis.yml to configure build environment, install dep
 $ git push origin master
 ```
 
-* Visit https://travis-ci.org/USERNAME/build_and_test_examples.
+* Visit https://travis-ci.com/USERNAME/build_and_test_examples.
 * If building C and C++ there should be a single job.
 * If building Java, PHP, and Python there should be a single job with two sub-jobs, one for each version of these languages we are testing under.
 * Jobs should be coloured green with a tick, indicating that they passed.
