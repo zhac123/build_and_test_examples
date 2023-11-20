@@ -12,6 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: ls
+      - run: chmod +x set-paths.sh
       - run: ./set-paths.sh
       - run: make fibonacci
       - run: ./fibonacci 30
