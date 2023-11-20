@@ -7,8 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      working-directory: ./cpp
-      - run: ls
-      - run: ./set-paths.sh
-      - run: make fibonacci
-      - run: ./fibonacci 30
+      - name: run cpp
+        working-directory: ./cpp
+        run: ls
+        run: ./set-paths.sh
+        run: make fibonacci
+        run: ./fibonacci 30
