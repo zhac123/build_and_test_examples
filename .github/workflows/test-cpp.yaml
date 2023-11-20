@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: cd cpp
-      - run: ./set-paths.sh
+      
       - run: make fibonacci
       - run: ./fibonacci 30
